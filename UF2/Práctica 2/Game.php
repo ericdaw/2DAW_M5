@@ -35,10 +35,10 @@ class Game
 			$i < $this->fifty;
 			$i++
 		) {
-			array_push($this->popQuestions, ($this->string_pop . $this->string_question . $i));
-			array_push($this->scienceQuestions, ($this->string_science . $this->string_question . $i));
-			array_push($this->sportsQuestions, ($this->string_sports . $this->string_question . $i));
-			array_push($this->rockQuestions, $this->createRockQuestion($i));
+			array_push($this->popQuestions, $this->string_pop . $this->string_question . $i);
+			array_push($this->scienceQuestions, ($this->string_science . $this->string_question . $i);
+			array_push($this->sportsQuestions, $this->string_sports . $this->string_question . $i);
+			array_push($this->rockQuestions, $this->string_rock . $this->string_question . $i);
 		}
 	}
 
